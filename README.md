@@ -1,7 +1,6 @@
-# SWP_DP_LineConnector
-Here you have to connect a variety of blocks with a laser and if you get connect to the goal which is looks like the start point.
-For this project the following patters were needed:
-The fist Pattern is MVC. The reason for that is, that  it beautify the way of coding. 
-The next is Command Patter. If someone want to return is turn then the program has to undo the move, but the user want to redo again, then the program has to reload the move again.
-And for a Highscore  table the program has to save the score  in to a database. And for the Connection I am going to use a Singleton Pattern. 
-The last Pattern I will use is the Observer Pattern which will looking if the goal was reached.
+# SWP_DP_Adventure
+You going to visit a new Worl were you have multiple choice. It will not include any UI Features just the user and his or hers fantasie. 
+Following Patters will be used:
+MVC: For a clearly folder structure
+Command Pattern: In some Situation you can undo your decision
+Singleton: Connection to a database where you can save your page.
