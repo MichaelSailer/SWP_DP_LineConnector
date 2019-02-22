@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7972b1adc61df2c4289db1f09b357bcc, type: 3}
+  m_Name: StartingRoom
+  m_EditorClassIdentifier: 
+  description: Welcome to the Startingpoint
+  roomName: Starting Point
+  exits:
+  - keyString: hello
+    exitdescription: To begin say hello
+    valueRoom: {fileID: 11400000, guid: e012eabd614dfdb40ac97d43cd860e76, type: 2}
